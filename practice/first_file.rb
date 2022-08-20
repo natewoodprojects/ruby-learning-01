@@ -1,6 +1,10 @@
+
+
+
 class Printer
     def print_thing
-        puts "Jess"
+        money = "I really wish I didn't have to worry about money"
+        puts money
     end
 end
 
