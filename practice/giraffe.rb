@@ -74,4 +74,4 @@ verb = gets
 puts "Give a adjective"
 adjective = gets
 
-puts "{noun} {verb} for {number} {adjective} cats "
+puts '{noun} {verb} for {number} {adjective} cats '
