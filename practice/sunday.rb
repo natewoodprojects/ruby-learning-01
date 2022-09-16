@@ -1,7 +1,12 @@
 
 
 
-class Printer
+class Printer(money)
+
+    attn_attribute: value
+    def initialize 
+        @value = money
+
     def print_thing
         money = "I really wish I didn't have to worry about money"
         puts money
@@ -17,7 +22,7 @@ end
 # thing = Printer.new
 # thing.print_thing
 
-time = Printer.new
+time = new Printer
 
 time.additional(1,2)
 
