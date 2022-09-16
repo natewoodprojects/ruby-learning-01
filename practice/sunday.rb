@@ -3,7 +3,7 @@
 
 class Printer(money)
 
-    attn_attribute: value
+    attr_reader :value
     def initialize 
         @value = money
 
